@@ -1,0 +1,6 @@
+separator: ";" #自定义分隔符号
+#在指令分割前加入{身份}就可以以各种身份执行了 console,player,op
+#trmenu有着自己的身份执行，不过这个执行是执行 该插件的指令的并不是待执行指令的
+#如果身份是player记得在trmenu中身份也要用player!
+statusSymbol: '{}'
+autoDel: true #执行数据后是否自动删除

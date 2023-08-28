@@ -1,0 +1,12 @@
+name: ConfirmSteps
+version: '${version}'
+main: me.fullidle.confirmsteps.ConfirmSteps
+api-version: '1.16'
+commands:
+  confirmsteps:
+    aliases: [csteps]
+permission:
+  confirmsteps.set:
+    default: op
+  confirmsteps.del:
+    default: op
